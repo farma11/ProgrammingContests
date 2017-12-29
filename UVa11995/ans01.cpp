@@ -55,7 +55,8 @@ inline bool if_judge(int index){
 			cout << table[index] << endl;
 			return true; //データ構造が確定
 		}
-		cout << table[4] << endl; return true; //複数の可能性がある
+		cout << table[4] << endl;
+    return true; //複数の可能性がある
 	}
 	return false; //可能性がない
 }
